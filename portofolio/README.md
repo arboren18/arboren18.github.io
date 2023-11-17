@@ -1,1 +1,367 @@
 # arboren18.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Portofolio Ghazi</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Muhammad Ghazi
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="https://drive.google.com/file/d/1Cb7dHEx-AWFmy10bc01hnUiAsxetZ_M1/view?usp=sharing" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/formal.jpeg" class="img-fluid">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Hallo, I'm Ghazi</h1>
+
+                            <a href="#" class="email-link">
+                                ghozi06@it.student.pens.ac.id
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">About me</h3>
+
+                    <p>Saya adalah Ghazi, seorang mahasiswa berusia 18 tahun yang sedang menempuh pendidikan di jurusan Teknik Informatika di Politeknik Elektronika Negeri Surabaya. Dengan latar belakang pendidikan ini, saya telah mengembangkan keahlian dalam pengembangan perangkat lunak dan memperdalam pemahaman tentang bahasa pemrograman seperti Java, Python, PHP dan C</p>
+
+                    <p>Saya percaya dalam daya kreasi teknologi untuk memecahkan masalah, dan saya bersemangat untuk berkontribusi pada proyek-proyek yang mendorong inovasi dan perkembangan positif. Dengan keterampilan komunikasi yang baik dan kemampuan beradaptasi, saya siap untuk berkolaborasi dalam tim dan memperluas wawasan saya di dunia teknologi informasi.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Muhammad Ghazi Al Ghifari </li>
+
+                        <li><strong>Date of Birth:</strong> 20 Februari 2005</li>
+                 
+                        <li><strong>Email :</strong> ghozi06@it.student.pens.ac.id</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/gunung.jpg" class="about-image img-fluid">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Pendidikan</h3>
+                <p>Saya merupakan siswa yang memiliki kesempatan akselerasi sejak SMP, selain itu saya juga telah menjuarai lomba Astronomi dan Duta Wisata.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Organisasi</h3>
+                <p>Saya merupakan seorang yang senang bersosialisasi, saya telah bergabung pada beberapa komunitas dan organisasi seperti WEBDEV, PMI, FORDA, FORMAS, dan lain-lain</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Project</h3>
+                <p>Saya telah mengembangkan beberapa aplikasi seperti pemesanan pada restoran, pemesanan untuk penyewaan kost dan database untuk aplikasi dating App</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">What People say</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/jokowi.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Ghazi suka tidur demi mencapai MIMPI Indonesia Emas 2045</p>
+
+                                        <h6 class="mb-0">Jokowi</h6>
+                                        <span>Presiden Indonesia</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/anies.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Saya butuh generasi muda seperti Ghazi, karena dia  coblos saya 2024</p>
+
+                                        <h6 class="mb-0">Anies Baswedan</h6>
+                                        <span>Capres 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/nada.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Ghazi adalah cowok terganteng yang pernah aku temui</p>
+
+                                        <h6 class="mb-0">Nada</h6>
+                                        <span>Pacar Saya</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/ainun.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Ghazi itu anak yang beruntung, karena dia masuk kartu keluarga saya</p>
+
+                                        <h6 class="mb-0">Ainun</h6>
+                                        <span>Ibu Ghazi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Agamanya apa kak?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Mayoritas Dek.</p>                           
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Kapan nikah?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Nungguin One Piece Tamat!</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Kerja apa?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Saya Ultramen</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Isi saldo rekening berapa?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Lebih banyak dari kamu</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Pinjam seratus boleh?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Ikan hiu makan palu, Sorry gak dulu</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say.</span>
+
+                </div>
+
+           	 </div><!-- col -->
+        	</div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                <p class="mb-1">+62 8953 2524 7171</p>
+
+                <p>
+                    <a href="#">
+                        ghozi06@it.student.pens.ac.id
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://www.facebook.com/moh.alghifari.7" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="https://twitter.com/MuhammadGhozia8" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/unghazii/" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/muhammad-ghozi-al-ghifari-951760254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://youtube.com/@muhammadghozial-ghifari675?feature=shared" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2023 Ghazi</p>             
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+</html>
